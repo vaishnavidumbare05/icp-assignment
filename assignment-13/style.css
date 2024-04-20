@@ -1,0 +1,35 @@
+.btn1{
+    background-color:#ff80ff;
+    border:solid 2px black;
+    padding:5px 10px;
+    margin:200px 100px 100px 200px;
+    border-radius:20px 10px;
+     }
+     .btn2{
+        background-color: black;
+        border:none;
+        padding:8px 16px;
+        color:white;
+         
+     }
+     .btn3{
+    background-color:#df4c7a;
+    border:solid 2px white;
+    padding:10px 20px;
+    margin:100px 100px;
+    border-radius:200px;
+     }
+     .btn4{
+        background-color:#f7b5f0;
+        border:double 3px black;
+        margin:50px;
+        border-radius:20px 40px;
+        padding:5px 10px;
+}
+    .btn5{
+        background-color:rgb(102, 185, 218);
+        border:signle 10px black;
+        margin:50px;
+        border-radius:50%;
+        padding:3px 6px;
+}

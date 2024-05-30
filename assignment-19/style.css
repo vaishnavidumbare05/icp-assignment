@@ -42,4 +42,82 @@
       display:block;
   }
   
+  @media screen and (max-width:400px){
+
+  
+  
+    .places-container{
+           display: flex;
+           flex-direction:start;
+           flex-wrap: wrap;
+       }
+ 
+       .places-card{
+          
+           margin-right:20px;
+           margin-top:20px;
+          
+           
+       }
+       .small-devices{
+           display: none;
+       }
+   
+   
+   }
+ 
+ 
+   @media screen and (max-width:600px){
+ 
+       .places-container{
+           display: flex;
+           flex-direction:start;
+           flex-wrap: wrap;
+       }
+ 
+       .places-card{
+          
+           margin-right:20px;
+           margin-top:20px;
+          
+           
+       }
+ 
+       
+   }
+ 
+ 
+   @media screen and (min-width:601px) and (max-width:900px){
+     
+    .places-container{
+      width:100vw;
+       margin:20px;
+       flex-wrap: wrap;
+    }
+    .places-card{
+      width:100vw;
+       gap:10px;
+    }
+ 
+ 
+ 
+  }
+ 
+ 
+  
+  @media screen and (min-width:901px) and (max-width:1270px){
+   .places-container{
+       display:flex;
+       justify-content: flex-start;
+       flex-direction: start;
+       flex-wrap: wrap;
+       
+   }
+   .places-card{
+       margin-left:10px;
+   }
+   
+ 
+ 
+  } 
 

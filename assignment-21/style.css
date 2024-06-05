@@ -91,3 +91,31 @@ margin-left:200px;
    
    visibility:hidden;
 }
+.product-detail{
+    width:120px;
+    border-radius: 3px;
+    background-color:skyblue;
+    text-align: center;
+    margin:3px 0;
+    margin-left: 0;
+    padding:5px 2px;
+    background-color:snow;
+
+  }
+  .product-heading{
+    font-weight:bold; 
+    background-color: lightskyblue;
+
+  }
+  
+    .total-amount-btn{
+
+        width:150px;
+        margin-right:10%;
+        margin-left: 80%;
+        background-color: #f28701;
+        border-radius: 5px;
+        padding:10px 2px;
+        font-weight: bold;
+        margin-bottom:20px;
+    }

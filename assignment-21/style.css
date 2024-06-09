@@ -125,7 +125,7 @@ margin-left:200px;
         font-size: 20px;
         background-color:#f28701;
         
-         }
+ }
 
          @media screen and (max-width:600px){
             .product-container{
@@ -144,11 +144,7 @@ margin-left:200px;
                 margin-left:70%;
                 margin-top:5px;
                }
-           
-    
-            
-            
-        }
+          }
       
       
         @media screen and (min-width:601px) and (max-width:900px){
@@ -168,12 +164,7 @@ margin-left:200px;
                 margin-left:70%;
                 margin-top:5px;
                }
-           
-
-            
-            
-           
-     }
+           }
        
        @media screen and (min-width:901px) and (max-width:1270px){
         .product-container{
@@ -193,11 +184,5 @@ margin-left:200px;
             margin-left:80%;
             margin-top:5px;
            }
-
-        
-
-        
-            
-             
-                  }
+        }
     

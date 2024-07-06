@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else ladder</title>
+    <script>
+        //Display grade of students according to marks given by user. used concept of prompt through which input from user is taken .
+        
+         //give percentage from user
+         let percentage=parseInt(prompt("Enter your percentage"))
+        //boundary condition:
+      if(percentage>=60 && percentage<70)
+       {
+        document.write("D")
+       }
+       else if(percentage>=80 && percentage<90)
+       {
+        document.write("B")
+       }
+       else if(percentage>=50 && percentage<60)
+       {
+        document.write("E")
+       }
+       
+       else if(percentage>=90 && percentage<=100)
+       {
+        document.write("A")
+       }
+      
+       else if(percentage>=70 && percentage<80)
+       {
+        document.write("C")
+       }
+       else{
+        document.write("FAIL")
+       }
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
